@@ -336,6 +336,8 @@ layout: default
 - But we want models that can **exceed human performance** while staying aligned with human values
   - AlphaGo Move 37 is a good example of this
 - **RLHF solution**: Train a reward model from human preferences, then use RL to optimize for those preferences
+- Many training regimes (PPO, GRPO, DPO, etc) for running RL. We will focus NOT on explaining these, but instead on how to train a reward model
+  -  Why? Reward models are like "power ups", we can use them with APIs and within systems with custom models to improve performance
 
 ---
 layout: default
