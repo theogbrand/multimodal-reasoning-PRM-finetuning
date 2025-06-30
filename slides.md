@@ -73,6 +73,16 @@ Most promising multimodal-multi-agent frameworks tried:
 layout: default
 ---
 
+# Purpose
+
+1. Crowdsource ideas and solutions to finetuning computer use agents for flexible personal use
+
+2. Share one potential solution emerging from frontier research - reinforcement learning approach using reward models
+
+---
+layout: default
+---
+
 # Outline
 
 1.  **The Utility of Multimodal Reasoning**
