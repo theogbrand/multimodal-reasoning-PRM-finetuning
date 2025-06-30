@@ -132,6 +132,30 @@ layout: default
 layout: default
 ---
 
+# Research Philosophy
+
+Growing conviction that the most impactful AI innovations emerge when **frontier research reaches a critical threshold** where theoretical breakthroughs become engineerable into novel applications.
+
+<div class="mt-6 space-y-4">
+
+**Identifying this turning point demands more than technical expertise:**
+- Deep theoretical understanding and systematic methodologies
+- Practical engineering execution  
+- The instinct to recognize when seemingly disparate advances converge
+
+**Goal:** Identify innovation that happen at inflection points where:
+- Scientific progress
+- Market needs  
+- Available tools
+
+all align simultaneously.
+
+</div>
+
+---
+layout: default
+---
+
 # Outline
 
 1.  **The Utility of Multimodal Reasoning**
@@ -496,7 +520,6 @@ layout: default
 
 ```mermaid
 graph TB
-    S[Steps: s1, s2, ..., sn] --> P1[Prefix 1: Q, s1]
     S --> P2[Prefix 2: Q, s1, s2]
     S --> P3[Prefix 3: Q, s1, s2, s3]
     S --> PN[Prefix n: Q, s1...sn]
