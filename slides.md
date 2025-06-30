@@ -32,7 +32,7 @@ headersFrontmatter:
       async: true
 ---
 
-# Finetuning Computer Use Agents for Flexible Personal Use
+# Reinforcement Finetuning for Multimodal Reasoning
 
 ### Test-Time Scaling, Self-Improving Agents, Multimodal Reasoning, Reinforcement Learning, Reward Models
 
