@@ -53,6 +53,26 @@ The last comment block of each slide will be treated as slide notes. It will be 
 layout: default
 ---
 
+# Motivation
+
+I tried to automate Concur expense claims using computer vision agents.
+The goal was to have an agent that could:
+- Read receipts (or pull them from multiple sources)
+- Extract values from receipts as expected by Concur 
+- Fill out the Concur form (with Organisation specific business rules)
+
+Upon error analysis, the failure modes seemed caused by the lack of intelligence, not the harness.
+- They couldn't handle the variability in receipt formats.
+- They struggled with the complex UIUX of Concur.
+- The error recovery was not robust enough.
+
+Most promising frameworks tried:
+- Microsoft Magenta One, Claude Computer Use, Browser Use variants with Gemini
+
+---
+layout: default
+---
+
 # Outline
 
 1.  **The Utility of Multimodal Reasoning**
