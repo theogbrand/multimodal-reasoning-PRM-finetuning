@@ -73,6 +73,15 @@ Most promising multimodal-multi-agent frameworks tried:
 layout: default
 ---
 
+<div class="flex flex-col space-y-4 items-center">
+  <img src="/Users/ob1/projects/slides_dev/mmr-slides/assets/concur_1.png" class="w-auto max-h-60" />
+  <img src="/Users/ob1/projects/slides_dev/mmr-slides/assets/concur_2.png" class="w-auto max-h-48" />
+</div>
+
+---
+layout: default
+---
+
 # Purpose
 
 1. Crowdsource ideas and solutions to finetuning computer use agents for flexible personal use
