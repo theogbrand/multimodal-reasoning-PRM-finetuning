@@ -816,3 +816,41 @@ layout: default
 </div>
 
 </div>
+
+---
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center justify-center h-full space-y-6">
+
+<div class="grid grid-cols-3 gap-8 mb-6">
+  <div class="flex flex-col items-center space-y-2">
+    <img src="/Users/ob1/projects/slides_dev/mmr-slides/assets/bell_telephone_patent.jpg" class="h-40 w-auto rounded-lg shadow-lg" alt="Bell Telephone Patent" />
+    <div class="text-sm text-gray-500">Bell's Telephone Patent, 1876</div>
+  </div>
+
+  <div class="flex flex-col items-center space-y-2">
+    <img src="/Users/ob1/projects/slides_dev/mmr-slides/assets/edison_light_bulb.jpg" class="h-40 w-auto rounded-lg shadow-lg" alt="Edison Light Bulb Patent" />
+    <div class="text-sm text-gray-500">Edison's Light Bulb, 1880</div>
+  </div>
+  
+  <div class="flex flex-col items-center space-y-2">
+    <img src="/Users/ob1/projects/slides_dev/mmr-slides/assets/wright_first_flight.jpg" class="h-40 w-auto rounded-lg shadow-lg" alt="Wright Brothers First Flight" />
+    <div class="text-sm text-gray-500">Wright Brothers, 1903</div>
+  </div>
+</div>
+
+<blockquote class="text-2xl font-light italic text-gray-700 max-w-4xl">
+"I have not failed. I've just found 10,000 ways that won't work."
+</blockquote>
+
+<div class="text-xl text-gray-500 mt-4">
+— Thomas Edison
+</div>
+
+<div class="mt-8 text-lg text-gray-600">
+Thank you
+</div>
+
+</div>
