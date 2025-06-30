@@ -83,6 +83,55 @@ layout: default
 layout: default
 ---
 
+# About Me
+
+<div class="space-y-4">
+
+  <div class="grid grid-cols-3 gap-4 items-center">
+    <div class="col-span-2">
+      <ul>
+        <li><strong>Senior Researcher @ AI Singapore</strong>
+          <ul class="text-sm"><li>Researching Multimodal Reasoning, previously led SEALIONv2 training, worked with GoJek on launching their proprietary LLM & Hippocratic AI on finetuning realtime voice agents</li></ul>
+        </li>
+      </ul>
+    </div>
+    <div class="flex justify-center">
+      <img src="/Users/ob1/projects/slides_dev/mmr-slides/assets/aisg.png" class="h-38" />
+    </div>
+  </div>
+
+  <div class="grid grid-cols-3 gap-4 items-center">
+    <div class="col-span-2">
+      <ul>
+        <li><strong>Cofounder & CTO @ Gigit.AI</strong>
+          <ul class="text-sm"><li>Sequoia & Pear VC-backed customer support AI.</li></ul>
+        </li>
+      </ul>
+    </div>
+    <div class="flex justify-center">
+      <img src="/Users/ob1/projects/slides_dev/mmr-slides/assets/seqcap.png" class="h-20" />
+    </div>
+  </div>
+
+  <div class="grid grid-cols-3 gap-4 items-center">
+    <div class="col-span-2">
+      <ul>
+        <li><strong>Founding Data Engineer @ Workstream.us</strong>
+          <ul class="text-sm"><li>Backed by Peter Thiel's Founder's Fund.</li></ul>
+        </li>
+      </ul>
+    </div>
+    <div class="flex justify-center">
+      <img src="/Users/ob1/projects/slides_dev/mmr-slides/assets/workstream.png" class="h-40" />
+    </div>
+  </div>
+
+</div>
+
+---
+layout: default
+---
+
 # Outline
 
 1.  **The Utility of Multimodal Reasoning**
