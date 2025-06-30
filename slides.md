@@ -32,9 +32,9 @@ headersFrontmatter:
       async: true
 ---
 
-# Multimodal Reasoning & RL
+# Finetuning Computer Use Agents for Flexible Personal Use
 
-### Age of Experience, Test-Time Scaling, Self-Improving Agents, Process Reward Models
+### Test-Time Scaling, Self-Improving Agents, Multimodal Reasoning, Reinforcement Learning, Reward Models
 
 <div class="abs-br m-6 text-xl">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
