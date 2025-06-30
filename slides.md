@@ -66,8 +66,8 @@ Upon error analysis, the failure modes seemed caused by the lack of intelligence
 - They struggled with the complex UIUX of Concur.
 - The error recovery was not robust enough.
 
-Most promising frameworks tried:
-- Microsoft Magenta One, Claude Computer Use, Browser Use variants with Gemini
+Most promising multimodal-multi-agent frameworks tried:
+- Microsoft Magenta One, Claude Computer Use, Browser Use/Browserbase variants
 
 ---
 layout: default
