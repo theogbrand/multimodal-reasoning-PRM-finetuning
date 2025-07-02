@@ -88,6 +88,8 @@ layout: default
 
 2. Share one potential solution emerging from frontier research - reinforcement learning approach using reward models
 
+3. Invite collaboration for those actively looking to improve their computer use agents
+
 ---
 layout: default
 ---
@@ -188,13 +190,11 @@ layout: default
 
 # The Utility of Multimodal Reasoning
 
-## Industry Emergence
-
 - **Multimodal reasoning** powers computer-use agents like:
   - OpenAI Operator
   - Manus
 - ChatGPT's o3 agentic capabilities
-  - These systems can zoom into images, search the web, and use code interpreters to answer complex multimodal queries
+  - These systems can use tools to zoom into images, search the web, and use code interpreters to answer complex multimodal queries
 - Reasoning beyond text, starting with images
 
 ---
@@ -262,22 +262,13 @@ layout: center
 layout: default
 ---
 
-# Background: Math (Reasoning) in LLMs
+# Background: Reasoning is intelligence
 
 ## Chain of Thought
 
-- When **instruction tuning** first worked, it unlocked an emergent capability for LLMs to reason in a "structured" way
-- Even though models were not explicitly trained to perform arithmetic, they could somehow solve complex math problems, with some exceptions
-- Most surprising to researchers, that a "next token prediction" objective somehow enabled "thinking machines"
-
-### Exception: The "Strawberry Problem"
-
-<div class="mt-4 p-4 bg-gray-100 rounded">
-<strong>Q:</strong> How many R's are in the word "strawberry"?<br>
-<strong>Early LLMs:</strong> <span class="text-red-500">2 Rs ❌</span><br>
-</div>
-
-- Hint: Tokenization problem
+- When **chain of thought** was discovered, we discovered an emergent capability for LLMs to reason in a "structured" way
+- Even though models were not explicitly trained to perform arithmetic, they could somehow solve complex math problems, and "do computation", with some exceptions
+- "Next token prediction" objective enabled "thinking machines"
 
 ---
 layout: default
@@ -291,11 +282,11 @@ layout: default
 - This led to sampling strategies that can be used at inference time to improve output quality
 - Example of sampling technique:
   - **Majority Voting (Self-Consistency)**:
-    - CoT@32 means they generated 32 different reasoning chains using Chain-of-Thought prompting
+    - CoT@32 referes to generating 32 different reasoning chains using Chain-of-Thought prompting
     - Also called self-consistency, where:
       - The model generates multiple reasoning paths for each question
       - Each path produces an answer
-      - The final answer is determined by which answer appears most frequently across all samples
+      - The final answer is determined by which answer appears most frequently across all samples (and heuristics to determine "most frequent" answer)
 - See [MedPrompt+ (promptbase repo) by MSR](https://github.com/microsoft/promptbase) for more details
 
 ---
