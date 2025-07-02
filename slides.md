@@ -722,6 +722,24 @@ Judgment: Yes, the reasoning trace is valid.
 layout: default
 ---
 
+# The price of Reinforcement Learning
+
+- 100K prompts for rollouts
+  - repeat 4-6x for sampling diversity
+  - average 10 steps per prompt
+  - At each step, we sample 16 times
+  - 100K * 5 * 10 * 16 = 80M requests of GPT-4.1
+- ~500K prompts for verification, across 3 different models
+  - o4-mini, gpt-4.1-mini, gpt-4.1-nano
+
+<div class="flex justify-center">
+  <img src="/Users/ob1/projects/slides_dev/mmr-slides/assets/price_of_rl.jpg" class="h-auto max-h-60" />
+</div>
+
+---
+layout: default
+---
+
 # PRM At Inference Time
 
 ## Best-of-N Sampling: Select Highest Quality Output
