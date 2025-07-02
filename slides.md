@@ -884,4 +884,8 @@ class: text-center
 Thank you
 </div>
 
+<div class="mt-8 text-lg text-gray-600">
+Email me at <a href="mailto:brandonong@aisingapore.org">brandonong@aisingapore.org</a>
+</div>
+
 </div>
