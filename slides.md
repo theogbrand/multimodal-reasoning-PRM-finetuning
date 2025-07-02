@@ -343,6 +343,19 @@ layout: default
 layout: default
 ---
 
+# Thought Experiment
+
+- What if we could give feedback to the model about its answer and get the model to "learn our preferences"?
+  - Likert scale feedback in RLHF, Outcome Reward Models
+- How about at each step of the reasoning process?
+  - Process Reward Models
+- How can we do this in a way that scales? 
+  - Using well-aligned LLMs as reward models to proxy human preferences
+
+---
+layout: default
+---
+
 # From Reasoning to RL
 
 ## Reward Models in RLHF for Reasoning
