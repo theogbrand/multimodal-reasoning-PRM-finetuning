@@ -32,7 +32,7 @@ headersFrontmatter:
       async: true
 ---
 
-# Reinforcement Finetuning for Multimodal Reasoning
+# Reinforcement Finetuning for Multimodal Reasoning Part 1
 
 ### Test-Time Scaling, Self-Improving Agents, Small Models, Reinforcement Learning, Reward Models
 
