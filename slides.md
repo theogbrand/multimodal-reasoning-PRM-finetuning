@@ -55,18 +55,18 @@ layout: default
 
 # Motivation
 
-I tried to automate Concur expense claims using computer vision agents.
-The goal was to have an agent that could:
+Automating Concur expense claims using computer vision agents.
+The goal was to have an agent:
 - Read receipts (or pull them from multiple sources)
 - Extract values from receipts as expected by Concur 
 - Fill out the Concur form (with Organisation specific business rules)
 
-Upon error analysis, the failure modes seemed caused by the lack of intelligence, not the harness.
-- They couldn't handle the variability in receipt formats.
-- They struggled with the complex UIUX of Concur.
-- The error recovery was not robust enough.
+When analysing the failure modes, noticed errors caused by lack of perception and reasoning intelligence.
+- Unable to handle the variability in receipt formats.
+- Struggled with adapting to the complex UIUX of Concur.
+- Inability to self-recover from errors.
 
-Most promising multimodal-multi-agent frameworks tried:
+Multi-agent frameworks tried:
 - Microsoft Magenta One, Claude Computer Use, Browser Use/Browserbase variants
 
 ---
