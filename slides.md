@@ -34,7 +34,7 @@ headersFrontmatter:
 
 # Reinforcement Finetuning for Multimodal Reasoning Part 1
 
-### Test-Time Scaling, Self-Improving Agents, Small Models, Reinforcement Learning, Reward Models
+### Test-Time Scaling, Self-Improving Agents, Small Models, "Thinking Machines", Reinforcement Learning, Reward Models
 
 <div class="abs-br m-6 text-xl">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
@@ -267,7 +267,12 @@ layout: default
 - When **chain of thought** was discovered, we discovered an emergent capability for LLMs to reason in a "structured" way
 - Even though models were not explicitly trained to perform arithmetic, they could somehow solve complex math problems, and "do computation", with some exceptions
 - "Next token prediction" objective enabled "thinking machines"
-
+- "Let's think step-by-step"
+  - "Step 1: The problem states that Sarah has 12 apples and gives 5 to Tom."
+  - "Step 2: We need to find out how many apples Sarah has left after giving some away."
+  - "Step 3: Subtract the number of apples given away from the original amount: 12 - 5 = 7."
+  - "Step 4: Therefore, Sarah has 7 apples remaining."
+  - "Step 5: Double-check: 12 apples minus 5 apples equals 7 apples. The answer makes sense."
 ---
 layout: default
 ---
