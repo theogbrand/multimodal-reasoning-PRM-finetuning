@@ -34,7 +34,7 @@ headersFrontmatter:
 
 # Reinforcement Finetuning for Multimodal Reasoning
 
-### Test-Time Scaling, Self-Improving Agents, Multimodal Reasoning, Reinforcement Learning, Reward Models
+### Test-Time Scaling, Self-Improving Agents, Small Models, Reinforcement Learning, Reward Models
 
 <div class="abs-br m-6 text-xl">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
