@@ -82,13 +82,11 @@ layout: default
 layout: default
 ---
 
-# Purpose
+# Research Motivation
 
-1. Crowdsource ideas and solutions to finetuning computer use agents for flexible personal use
+1. Understand mechanics of finetuning computer use agents for flexible use cases
 
-2. Share one potential solution emerging from frontier research - reinforcement learning approach using reward models
-
-3. Invite collaboration for those actively looking to improve their computer use agents
+2. Explore emerging solutions in reinforcement learning, test-time scaling and small model finetuning
 
 ---
 layout: default
