@@ -445,7 +445,7 @@ layout: default
 
 # Core Mechanism 1: Monte Carlo Rollouts (Illustrated)
 
-## Phase 1: Initial Rollout with Step Forcing
+## Phase 1: We evaluate the **Goodness of Steps**
 
 <div class="grid grid-cols-2 gap-4">
 
